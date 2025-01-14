@@ -1,0 +1,6 @@
+2025-01-03 19:17:49,290 - ERROR - Error loading data: [Errno 2] No such file or directory: '../data/train.csv'
+2025-01-03 19:17:49,290 - ERROR - EDA pipeline terminated due to data loading failure
+2025-01-03 19:18:24,708 - ERROR - Error loading data: [Errno 2] No such file or directory: '../data/train.csv'
+2025-01-03 19:18:24,708 - ERROR - EDA pipeline terminated due to data loading failure
+2025-01-03 19:21:42,682 - ERROR - Error loading data: [Errno 2] No such file or directory: '../data/train.csv'
+2025-01-03 19:21:42,682 - ERROR - EDA pipeline terminated due to data loading failure
