@@ -118,7 +118,7 @@ def load_train_data(file_path: Optional[Path] = None) -> pd.DataFrame:
         'DayOfWeek': 'int8',
         'Sales': 'int32',
         'Customers': 'int32',
-        'Open': 'float16',  # Has NaN values
+        'Open': 'float32',  # Has NaN values
         'Promo': 'int8',
         'StateHoliday': 'object',
         'SchoolHoliday': 'int8'
@@ -165,7 +165,7 @@ def load_test_data(file_path: Optional[Path] = None) -> pd.DataFrame:
     dtype_dict = {
         'Store': 'int32',
         'DayOfWeek': 'int8',
-        'Open': 'float16',
+        'Open': 'float32',
         'Promo': 'int8',
         'StateHoliday': 'object',
         'SchoolHoliday': 'int8'
@@ -213,11 +213,11 @@ def load_store_data(file_path: Optional[Path] = None) -> pd.DataFrame:
         'StoreType': 'object',
         'Assortment': 'object',
         'CompetitionDistance': 'float32',
-        'CompetitionOpenSinceMonth': 'float16',
-        'CompetitionOpenSinceYear': 'float16',
+        'CompetitionOpenSinceMonth': 'float32',
+        'CompetitionOpenSinceYear': 'float32',
         'Promo2': 'int8',
-        'Promo2SinceWeek': 'float16',
-        'Promo2SinceYear': 'float16',
+        'Promo2SinceWeek': 'float32',
+        'Promo2SinceYear': 'float32',
         'PromoInterval': 'object'
     }
     
