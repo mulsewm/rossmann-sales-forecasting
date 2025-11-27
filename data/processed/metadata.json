@@ -1,0 +1,9 @@
+{
+  "creation_date": "2025-11-24 12:28:18",
+  "train_records": 969264,
+  "test_records": 47945,
+  "total_features": 86,
+  "train_date_range": "2013-01-01 to 2015-06-18",
+  "test_date_range": "2015-06-19 to 2015-07-31",
+  "split_date": "2015-06-19"
+}

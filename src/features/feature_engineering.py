@@ -190,9 +190,19 @@ def create_competition_features(df: pd.DataFrame) -> pd.DataFrame:
             format='%Y-%m-%d',
             errors='coerce'
         )
-        df_comp['MonthsSinceCompetition'] = (
-            (df_comp['Date'] - df_comp['CompetitionOpenDate']) / np.timedelta64(1, 'M')
-        ).fillna(0)
+        # Calculate months difference using a supported method
+        # Use year and month difference for accurate calculation
+        def calculate_months_diff(row):
+            if pd.isna(row['CompetitionOpenDate']) or pd.isna(row['Date']):
+                return 0
+            try:
+                years_diff = row['Date'].year - row['CompetitionOpenDate'].year
+                months_diff = row['Date'].month - row['CompetitionOpenDate'].month
+                return years_diff * 12 + months_diff
+            except:
+                return 0
+        
+        df_comp['MonthsSinceCompetition'] = df_comp.apply(calculate_months_diff, axis=1).fillna(0)
         logger.info("  Created: MonthsSinceCompetition")
     
     return df_comp
