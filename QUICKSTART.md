@@ -2,8 +2,6 @@
 
 ##  Project Setup Complete!
 
-Your professional Data Science project structure has been created successfully. This guide will help you get started quickly.
-
 ##  Project Structure
 
 ```
@@ -330,5 +328,5 @@ uvicorn app:app --reload --port 8001
 
 **Good luck with your project! **
 
-For questions or issues, refer to the comprehensive documentation in `README.md` and `docs/project_plan.md`.
+For questions or issues, refer to the documentation in `README.md` and `docs/project_plan.md`.
 

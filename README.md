@@ -29,7 +29,7 @@ The finance team at Rossmann Pharmaceuticals wants to forecast sales in all thei
 - Build robust ML models (Random Forest, XGBoost, LightGBM) for baseline predictions
 - Implement Deep Learning models (LSTM) for capturing temporal patterns
 - Deploy a production-ready API for real-time predictions
-- Provide actionable insights through comprehensive EDA
+- Provide insights through comprehensive EDA
 
 ##  Dataset Information
 
@@ -240,18 +240,6 @@ pytest tests/ -v --cov=src
 - **loguru**: Advanced logging
 - **pytest**: Testing framework
 
-##  Project Timeline
-
-| Phase | Tasks | Duration | Status |
-|-------|-------|----------|--------|
-| **Week 1-2** | Data Collection, EDA, Cleaning | 2 weeks | ✅ Complete |
-| **Week 3** | Feature Engineering | 1 week | ✅ Complete |
-| **Week 4** | ML Model Development (RF, XGBoost) | 1 week | ✅ Complete |
-| **Week 5** | Deep Learning (LSTM) | 1 week | ✅ Complete |
-| **Week 6** | Model Evaluation & Selection | 1 week | ✅ Complete |
-| **Week 7** | API Development & Deployment | 1 week | ✅ Complete |
-| **Week 8** | Documentation & Presentation | 1 week | ✅ Complete |
-
 ##  Results
 
 ###  Model Performance
@@ -260,10 +248,10 @@ pytest tests/ -v --cov=src
 
 | Metric | Value | Target | Status |
 |--------|-------|--------|--------|
-| **RMSPE** | **1.40%** | < 10% | ✅ **Exceeded by 86%** |
-| **RMSE** | 140.49 | - | ✅ Excellent |
-| **MAE** | 57.58 | - | ✅ Excellent |
-| **R²** | **0.9979** | > 0.85 | ✅ **Exceeded by 17%** |
+| **RMSPE** | **1.40%** | < 10% |  **Exceeded by 86%** |
+| **RMSE** | 140.49 | - |  Excellent |
+| **MAE** | 57.58 | - |  Excellent |
+| **R²** | **0.9979** | > 0.85 |  **Exceeded by 17%** |
 
 ### Model Comparison
 
@@ -274,28 +262,28 @@ pytest tests/ -v --cov=src
 
 ### Key Insights
 
-- ✅ **Temporal Patterns:** Strong day-of-week and monthly seasonality identified
-- ✅ **Promotion Impact:** Promotions increase sales by 20-30%
-- ✅ **Store Characteristics:** StoreType and Assortment significantly affect sales
-- ✅ **Feature Importance:** Lag features (7-day, 1-day) are most predictive
-- ✅ **Holiday Effects:** State holidays reduce sales by 30-40%
-- ✅ **Competition Impact:** Closer competition correlates with lower sales
+-  **Temporal Patterns:** Strong day-of-week and monthly seasonality identified
+-  **Promotion Impact:** Promotions increase sales by 20-30%
+-  **Store Characteristics:** StoreType and Assortment significantly affect sales
+-  **Feature Importance:** Lag features (7-day, 1-day) are most predictive
+-  **Holiday Effects:** State holidays reduce sales by 30-40%
+-  **Competition Impact:** Closer competition correlates with lower sales
 
 ### Business Impact
 
 - **Forecast Accuracy:** 86% better than target (1.40% vs 10% target)
 - **Cost Optimization:** Enables better inventory management
 - **Strategic Planning:** Supports 6-week ahead forecasting
-- **Production Ready:** API deployed and ready for use
+- **Production Ready:** API ready for use
 
 ##  Contributing
 
 Contributions are welcome! Please follow these steps:
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
+2. Create a feature branch (`git checkout -b feature/feature_name_abc`)
+3. Commit your changes (`git commit -m 'Add some features'`)
+4. Push to the branch (`git push origin feature/feature_name_abc`)
 5. Open a Pull Request
 
 ### Code Style
@@ -310,7 +298,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ##  Authors
 
-- **Mulusew Meselu Tesfaye** - *Initial work* - [YourGitHub](https://github.com/mulsewm)
+- **Mulusew Meselu Tesfaye** - *Initial work* - [Mulsewm](https://github.com/mulsewm)
 
 ##  Acknowledgments
 
@@ -322,7 +310,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions or feedback, please reach out:
 - Email: mulemes81@gmail.com
-- LinkedIn: [Your Profile](https://linkedin.com/in/muliemes)
+- LinkedIn: [MulsewM](https://linkedin.com/in/muliemes)
 - GitHub: [@mulsewm](https://github.com/mulsewm)
 
 ---

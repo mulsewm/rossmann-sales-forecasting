@@ -2,7 +2,7 @@
 
 **Project Title:** Sales Forecasting for Rossmann Pharmaceuticals Using Machine Learning and Deep Learning
 
-**Date:** November 2025
+**ID:** a25multe
 
 **Author:** Mulusew Meselu Tesfaye
 
@@ -286,7 +286,7 @@ Created **85 engineered features** including:
 
 ## 7. Business Recommendations
 
-### Immediate Actions
+### Future Work
 
 1. **Deploy XGBoost Model:**
    - Use XGBoost_20251126_161720 for production
@@ -435,10 +435,6 @@ Created **85 engineered features** including:
    - Automated alerts for drift
    - Model versioning system
 
-3. **Scalability:**
-   - Horizontal scaling
-   - Caching layer
-   - Database integration
 
 ---
 
@@ -446,7 +442,7 @@ Created **85 engineered features** including:
 
 In this project We successfully developed a production-ready sales forecasting system that **exceeds all business objectives**. The XGBoost model achieves **RMSPE of 1.40%**, which is **86% better than the 10% target**.
 
-### Key Success Factors
+### Key Factors
 
 1. **Comprehensive Feature Engineering:** 85 features capturing temporal, promotional, and competitive effects
 2. **Robust Model Selection:** Thorough evaluation leading to optimal model choice
@@ -513,17 +509,6 @@ In this project We successfully developed a production-ready sales forecasting s
 - `POST /predict/batch` - Batch predictions
 - `POST /predict/store/{store_id}` - Store-specific forecasts
 
-### D. Project Timeline
-
-| Phase | Duration | Status |
-|-------|----------|--------|
-| Data Exploration | Week 1-2 |  Complete |
-| Feature Engineering | Week 3 |  Complete |
-| ML Model Development | Week 4 |  Complete |
-| Deep Learning (LSTM) | Week 5 |  Complete |
-| Model Evaluation | Week 6 |  Complete |
-| API Development | Week 7 |  Complete |
-| Documentation | Week 8 |  Complete |
 
 ---
 
