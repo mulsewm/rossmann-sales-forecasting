@@ -254,7 +254,7 @@ pytest tests/ -v --cov=src
 
 ##  Results
 
-### 🎯 Model Performance
+###  Model Performance
 
 **Best Model: XGBoost (Tuned)**
 
@@ -308,7 +308,7 @@ Contributions are welcome! Please follow these steps:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Authors
+##  Authors
 
 - **Mulusew Meselu Tesfaye** - *Initial work* - [YourGitHub](https://github.com/mulsewm)
 
@@ -321,7 +321,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ##  Contact
 
 For questions or feedback, please reach out:
-- Email: your.email@example.com
+- Email: mulemes81@gmail.com
 - LinkedIn: [Your Profile](https://linkedin.com/in/muliemes)
 - GitHub: [@mulsewm](https://github.com/mulsewm)
 

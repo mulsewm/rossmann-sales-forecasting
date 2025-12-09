@@ -1,6 +1,6 @@
 {
-  "evaluation_date": "2025-11-26 23:16:50",
-  "models_evaluated": 5,
+  "evaluation_date": "2025-12-08 15:29:40",
+  "models_evaluated": 7,
   "test_samples": 47945,
   "best_model": "XGBoost_20251126_161720",
   "best_rmspe": 1.3965505928954158

@@ -20,7 +20,7 @@ setup(
     description="Sales forecasting for Rossmann Pharmaceuticals using ML and Deep Learning",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/rossmann-sales-forecasting",
+    url="https://github.com/mulsewm/rossmann-sales-forecasting",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",

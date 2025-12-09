@@ -12,7 +12,7 @@
 
 This project successfully developed a production-ready sales forecasting system for Rossmann Pharmaceuticals, achieving **RMSPE of 1.40%** - significantly exceeding the business objective of RMSPE < 10%. The system uses advanced machine learning (XGBoost) and deep learning (LSTM) techniques to predict daily sales for over 1,115 stores across 7 European countries, enabling 6-week ahead forecasting.
 
-### Key Achievements
+### Achievements
 
 -  **Model Performance:** RMSPE of 1.40% (86% better than target)
 -  **Production API:** FastAPI-based REST API deployed and ready
@@ -280,7 +280,7 @@ Created **85 engineered features** including:
 
 1. **Local:** Direct Python execution
 2. **Docker:** Containerized deployment
-3. **Cloud:** AWS, GCP, Azure ready
+3. **Cloud:** AWS ready
 
 ---
 
@@ -303,46 +303,7 @@ Created **85 engineered features** including:
    - Monitor model drift
    - Set up automated retraining pipeline
 
-### Short-term (3 months)
-
-1. **Model Ensembling:**
-   - Combine XGBoost and LSTM predictions
-   - Potentially improve accuracy by 5-10%
-
-2. **Confidence Intervals:**
-   - Add prediction uncertainty estimates
-   - Enable risk-aware decision making
-
-3. **A/B Testing:**
-   - Compare model predictions vs. manager predictions
-   - Measure business impact
-
-### Medium-term (6 months)
-
-1. **External Data Integration:**
-   - Weather data
-   - Economic indicators
-   - Local events calendar
-
-2. **AutoML Pipeline:**
-   - Automated hyperparameter tuning
-   - Continuous model improvement
-
-3. **Explainable AI:**
-   - SHAP values for feature explanations
-   - Model interpretability dashboard
-
-### Long-term (1 year)
-
-1. **Real-time Updates:**
-   - Continuous model retraining
-   - Online learning capabilities
-
-2. **Personalization:**
-   - Store-specific model fine-tuning
-   - Customized predictions per store
-
-3. **Advanced Features:**
+ **Future Features:**
    - Multi-step ahead forecasting
    - Anomaly detection
    - Recommendation system for promotions
@@ -483,7 +444,7 @@ Created **85 engineered features** including:
 
 ## 11. Conclusion
 
-This project successfully developed a production-ready sales forecasting system that **exceeds all business objectives**. The XGBoost model achieves **RMSPE of 1.40%**, which is **86% better than the 10% target**.
+In this project We successfully developed a production-ready sales forecasting system that **exceeds all business objectives**. The XGBoost model achieves **RMSPE of 1.40%**, which is **86% better than the 10% target**.
 
 ### Key Success Factors
 
@@ -501,7 +462,7 @@ This project successfully developed a production-ready sales forecasting system 
 
 ### Next Steps
 
-1. Deploy to production environment
+1. Deploy to production environment such as aws
 2. Monitor model performance
 3. Establish retraining pipeline
 4. Integrate with business systems
@@ -566,6 +527,6 @@ This project successfully developed a production-ready sales forecasting system 
 
 ---
 
-**Report Generated:** November 2025  
+**Report Generated:** Dec. 2025  
 **Version:** 1.0  
 
